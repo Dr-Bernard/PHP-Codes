@@ -6,11 +6,13 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="CheckBoxes.php" method="post">
+
+        <input type="submit">
+    </form>
+    
     <?php
-        $friends = array(Emeka, Obi, Amaka, Ekene);
-        $friends[4] = "Angela";
-        echo $friends[4];
-        echo count($friends);
-    ?>
+
+    ?> 
 </body>
 </html>
